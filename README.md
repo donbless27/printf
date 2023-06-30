@@ -1,5 +1,4 @@
-#Project: 0x011. C - TEAM PROJECT ON PRINTF
-
+# Project: 0x011. C - TEAM PROJECT ON PRINTF
 
 The "printf" project is a programming exercise that is commonly used in introductory computer science courses to help students learn the basics of the C programming language. The goal of the project is to create a function that can print formatted output to the console. The printf function is a powerful tool that can be used to display strings, numbers, and other data types in a variety of ways.
 
@@ -9,26 +8,26 @@ In the printf project, students are tasked with creating a simplified version of
 
 The printf project is a valuable learning experience for students, as it helps them develop their programming skills and gain a deeper understanding of how programming languages work. By completing the project, students learn about C syntax, string manipulation, memory allocation, and other important programming concepts.
 
-##Environment
+## Environment
 . Language: C
 . Editor: VIM 8.1.2269
 . Compiler: gcc 9.3.0
 . Wall -Werror -Wextra -pedantic -std=gnu89
 . Style guidelines: Betty style
 
-##Project specifitacation
+## Project specifitacation
 . No allowed to use global variable
 . No more than 5 functions per file
 . All files end with a new line
 
-##Specifiers
+## Specifiers
 Specifier characters at the end define the type and the interpretation of its corresponding argument:
 Specifier - Output
 c	character
 s	string
 d or i	Signed integer
 %	%
-##Repository files
+## Repository files
 File - Description
 README.md - this file
 _putchar.c - putchar function
@@ -40,7 +39,7 @@ print_string.c - print_string function
 printf.c - main function
 man_3_printf - man page
 
-##EXAMPLES
+## EXAMPLES
 _printf functions examples:
 
 _printf("Character:[%c]\n", 'H');
@@ -56,12 +55,12 @@ _printf("Percent: [%%]\n");
 
 Output: Percent: [%%]
 
-##Compilation
+## Compilation
 All files were compiled on Ubuntu 14.04 LTS.
 All programs and functions were compiled with gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic.
 
-##Styling
+## Styling
 All files have been written in the Betty Style.
 
-##Author
+## Author
 © Blessing U. Idon - Github Account Email:donbless0527@gmail.com
